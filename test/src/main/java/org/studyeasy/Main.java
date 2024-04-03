@@ -1,16 +1,28 @@
 package org.studyeasy;
 
-import org.studyeasy.insect.Bee;
+import org.studyeasy.animal.Animal;
+import org.studyeasy.bird.Bird;
+import org.studyeasy.bird.Eagle;
+import org.studyeasy.fish.Eel;
+import org.studyeasy.fish.Fish;
+import org.studyeasy.reptile.Crocodile;
+import org.studyeasy.reptile.Reptile;
 
 public class Main {
     public static void main(String[] args) {
-
-        System.out.println("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++){
-            System.out.println("i = " + i);
-        }
-        Bee bee = new Bee(2,2,2,"millions","yes","slim");
-        System.out.println(bee);
+        Animal animal =new Animal();
+       System.out.println(animal.toString());
+       Reptile reptile =new Reptile();
+       System.out.println(reptile.toString());
+       Crocodile crocodile =new Crocodile();
+       System.out.println(crocodile.toString());
+       Bird bird = new Bird();
+       System.out.println(bird.toString());
+       Eagle eagle = new Eagle();
+       System.out.println(eagle.toString());
+       Fish fish = new Fish();
+       System.out.println(fish.toString());
+       Eel eel=new Eel();
+       System.out.println(eel.toString());
     }
 }
