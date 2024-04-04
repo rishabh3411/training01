@@ -35,6 +35,42 @@ public class processor {
         this.maxfrequency = maxfrequency;
     }
 
+    public String getBrand() {
+        return brand;
+    }
+
+    public String getSeries() {
+        return series;
+    }
+
+    public int getGeneration() {
+        return generation;
+    }
+
+    public int getCores() {
+        return cores;
+    }
+
+    public int getThreads() {
+        return threads;
+    }
+
+    public String getCachememory() {
+        return cachememory;
+    }
+
+    public String getFrequency() {
+        return frequency;
+    }
+
+    public String getMinfrequency() {
+        return minfrequency;
+    }
+
+    public String getMaxfrequency() {
+        return maxfrequency;
+    }
+
     @Override
     public String toString() {
         return "processor{" +

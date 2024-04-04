@@ -32,6 +32,34 @@ public class Laptop {
         Keyboard = keyboard;
     }
 
+    public float getScreen() {
+        return screen;
+    }
+
+    public components.processor getProcessor() {
+        return processor;
+    }
+
+    public String getRam() {
+        return ram;
+    }
+
+    public String getHarddrive() {
+        return harddrive;
+    }
+
+    public components.GraphicsCard getGraphicsCard() {
+        return GraphicsCard;
+    }
+
+    public String getOpticalDrive() {
+        return opticalDrive;
+    }
+
+    public String getKeyboard() {
+        return Keyboard;
+    }
+
     @Override
     public String toString() {
         return "Laptop{" +
