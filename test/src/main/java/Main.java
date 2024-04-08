@@ -1,16 +1,25 @@
-import org.studyeasy.person;
+import org.studyeasy.Fordendevour;
+import org.studyeasy.Mahindrascorpiop;
+import org.studyeasy.cars;
 
 public class Main {
     public static void main(String[]args){
-        person calling =new person("rishu",19,"male");
-        System.out.println(calling);
-        calling.setName("mickey");
-        System.out.println(calling);
-        calling.setAge(111);
-        System.out.println(calling);
-        calling.setName("mickey");
-        System.out.println(calling);
-       calling.setGender("female");
-        System.out.println(calling);
+       // cars cars = new cars();
+       // cars.features();
+       // Mahindrascorpiop baap =new Mahindrascorpiop();
+       // baap.features();
+       // Fordendevour dada = new Fordendevour();
+       // dada.features();
+
+        cars cars;
+
+        cars = new Mahindrascorpiop();
+        cars.features();
+
+        cars = new Fordendevour();
+        cars.features();
+
+        cars = new cars();
+        cars.features();
     }
 }
