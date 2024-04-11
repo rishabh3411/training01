@@ -1,24 +1,24 @@
-import org.studyeasy.Iphone;
-import org.studyeasy.Samsungphone;
-import org.studyeasy.phone;
+import org.studyeasy.cersielannister;
+import org.studyeasy.jonsnow;
+import org.studyeasy.person;
 
 public class Main {
     public static void main(String[]args){
-        Samsungphone phone1 = new Samsungphone();
-        String p =phone1.processor();
-            System.out.println(p);
-        System.out.println(phone1.SpaceInGb());
-        System.out.println(phone1.whatsapp());
+        person jonsnow = new jonsnow();
+        jonsnow.eat();
+        jonsnow.speak();
 
+        person person =new cersielannister();
+        person.eat();
+        person.speak();
 
-        Iphone phone2 = new Iphone();
-        String s;
-        s = phone2.processor();
-        System.out.println(s);
-        System.out.println(phone2.SpaceInGb());
-        System.out.println(phone2.Airdrop());
-        System.out.println(phone2.processor());
-
-        }
-    }
-
+        person p1 = new person() {
+            @Override
+            public void eat() {
+                System.out.println("want to rule the world and also marry her");
+            }
+        };
+        p1.eat();
+        p1.speak();
+            }
+}
