@@ -1,7 +1,2 @@
-public class Lock {
-    String code ="123456";
-
-    public String getCode() {
-        return code;
-    }
+package PACKAGE_NAME;public class Lock {
 }
