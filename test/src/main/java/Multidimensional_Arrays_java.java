@@ -9,16 +9,14 @@ public class Multidimensional_Arrays_java {
         flats[1][0] = 201;
         flats[1][1] = 202;
         flats[1][2] = 203;
-          System.out.println(flats[1][2]);
-          System.out.println(flats[0][0]);
-//        cars = new int[4][][]
-        System.out.println("Printing the elements of the 2-D Array in reversed order");
-        for (int i = 0; i < flats.length; i++) { // way for execution / printing of a 2 -D array
+        for (int i = 0; i < flats.length; i++) {
             for (int j = 0; j < flats[i].length; j++) {
                 System.out.print(flats[i][j]);
                 System.out.print(" ");
             }
-            System.out.print("\n");
+            System.out.println("");
+            //using two dimensional array in java with the example of flats and floors.
+
         }
     }
 }
